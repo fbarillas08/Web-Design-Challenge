@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <label class="logo">WEATHER METRICS</label>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a class="active"href="#">Comparison</a>
+        <a href="Data.html">Data</a>
+        <div class="dropdown">
+            <button class="dropbtn">Plots 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Temperature.html">Temperature</a>
+                <a href="Humidity.html">Humidity</a>
+                <a href="Cloudiness.html">Cloudiness</a>
+                <a href="WindSpeed.html">Wind Speed</a>
+              </div>
+        </div> 
+    </div>
+       
+    <!-- Header -->
+    <div class="header" id="myHeader">
+      <h1>Available Plots</h1>
+      
+    </div>
+    
+    <!-- Photo Grid -->
+    <div class="row"> 
+      <div class="column">
+        <img src="visualizations/TempvsLat.png" style="width: 100%">          
+      </div>
+      <div class="column">
+        <img src="visualizations/HumidityvsLat.png"style="width: 100%">        
+      </div>  
+      <div class="column">
+        <img src="visualizations/CloudvsLat.png"style="width: 100%">        
+      </div>
+      <div class="column">        
+        <img src="visualizations/WindvsLat.png"style="width: 100%">
+      </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>World Cities Weather Metrics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <label class="logo">WEATHER METRICS</label>
+
+    <div class="navbar">
+        <a class="active"href="#">Home</a>
+        <a href="Comparison.html">Comparison</a>
+        <a href="Data.html">Data</a>
+        <div class="dropdown">
+            <button class="dropbtn">Plots
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Temperature.html">Temperature</a>
+                <a href="Humidity.html">Humidity</a>
+                <a href="Cloudiness.html">Cloudiness</a>
+                <a href="WindSpeed.html">Wind Speed</a>
+              </div>
+        </div> 
+    </div>
+                
+   
+    <header class="header">
+        <h1>Overview</h1>
+      </header>
+      <main>
+        <section class="posts">
+          <article class="post">
+            <h3>What is this?</h3>
+            <p>Welcome to the world cities weather metrics summary and visualization webpage.  This data contains recent readings of four distinct weather metrics from cities around the world. The cities were selected to ensure a comparable number of Northern and Southern Hemisphere locations.
+               The four metrics evaluated against the latitude of each city are:
+               <ul>
+                <li>* Ambient Temperature in degrees Farenheit</li>
+                <li>* Percent Humidity</li>
+                <li>* Percent Cloudiness</li>
+                <li>* Wind Speed in mph</li>
+            </ul>
+               
+            </p>
+          </article>
+          <article class="post">
+            <h3>Methodology</h3>
+            <p>520 cities from around the world, in equal number from the Northern and Southern Hemisphere, were selected from a dataset.
+               The four weather metrics above were extracted from (https://openweathermap.org/api).  All of the metrics were plotted against
+               the latitude of each city to identify any correlation between the metric and the city location.
+            </p>
+          </article>
+          <article class="post">
+            <h3>How to use this data analysis.</h3>
+            <p>The values for each of the metrics was extracted in early February of 2021.  They represent a snap shot of the temperature,
+                humidity, cloudiness, and wind speed at the time of extraction at each of the cities.  The values for each of the metrics
+                do not represent an average nor any other summary metric but rather a value in point in time.
+            </p>          
+        </section>
+      </main>
+   </div>
+</body>
+</html>

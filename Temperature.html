@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature by Latitude</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <label class="logo">WEATHER METRICS: AMBIENT TEMPERATURE BY LATITUDE</label>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Comparison.html">Comparison</a>
+        <a href="Data.html">Data</a>
+        <div class="dropdown">
+            <button class="dropbtn">Plots
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Temperature.html">Temperature</a>
+                <a href="Humidity.html">Humidity</a>
+                <a href="Cloudiness.html">Cloudiness</a>
+                <a href="WindSpeed.html">Wind Speed</a>
+              </div>
+        </div> 
+    </div>
+                
+    </nav>
+    <header class="header">
+        <h1>Ambient Temperature</h1>        
+        </header>
+        <main>
+          <section class="posts">
+            <article class="post">
+              <h3>What is Ambient Temperature?</h3>
+              <p>The metric shown herein is the measurement of temperature at the time of day queried from the weather site.  Temperature in a locality varies during the day due to diurnal temperature variation. Temperature ranges are based on seasonality during the year.  Ground-level temperature depends on various factors including:
+                <ul>
+                  <li>•	The average temperature</li>
+                  <li>•	The average humidity</li>
+                  <li>•	The average windspeed</li>
+                  <li>•	The proximity of dampening factors like large bodies of water.</li>
+              </ul>
+                             
+                How we feel in the extremes of temperature ranges depends on two main factors.   In frigid temperatures, the windspeed could significantly impacts how humans perceive ground temperature. This phenomenon is called windchill factor.   In hot temperatures, the humidity in the air significantly impacts our ability to cool ourselves through sweat evaporation.  This phenomenon is called heat index.
+                
+                The following chart depicts the ambient temperature of various cities by their latitude.               
+              </p>
+            
+              <img src="visualizations/TempvsLat.png" style="width:80%"> 
+        </section>
+      </main>
+   </div>
+</body>
+</html>

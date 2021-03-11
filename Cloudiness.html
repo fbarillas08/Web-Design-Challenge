@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Cloudiness by Latitude</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <label class="logo">WEATHER METRICS: PERCENT CLOUDINESS BY LATITUDE</label>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Comparison.html">Comparison</a>
+        <a href="Data.html">Data</a>
+        <div class="dropdown">
+            <button class="dropbtn">Plots
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Temperature.html">Temperature</a>
+                <a href="Humidity.html">Humidity</a>
+                <a href="Cloudiness.html">Cloudiness</a>
+                <a href="WindSpeed.html">Wind Speed</a>
+              </div>
+        </div> 
+    </div>
+                
+    </nav>
+    <header class="header">
+      <h1>% Cloudiness</h1>
+    </header>
+    <main>
+      <section class="posts">
+        <article class="post">
+          <h3>What is Cloudiness?</h3>
+          <p>Cloudiness is the defined by the amount of sky covered by clouds.  Cloud cover is measured in oktas, or eighths of the sky.  
+            A laser cloud base recorder is used to estimate partial cloud amount. For each layer of cloud identified by the instrument a time weighted average is used to derive the average amount.  Such measurements are by their nature only representative of the cloud that has passed directly above the instrument, not of the total sky that is on view from the station. 
+            Total cloud amount is only reported from stations where the human observer is present.
+            
+            The following chart depicts the % cloudiness of various cities by their latitude.               
+          </p>
+        
+          <img src="visualizations/CloudvsLat.png" style="width:80%"> 
+        </section>
+      </main>
+   </div>
+</body>
+</html>
